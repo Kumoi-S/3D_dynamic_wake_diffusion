@@ -20,7 +20,7 @@ To test the trained model, please download the supplementary data from [zenodo](
 conda env create -f environment.yml
 ```
 
-If you encounter issues and cannot solve it, another way to install the packages is(this has a high chance to work):
+If you encounter issues and cannot solve it, another way to install the packages is (this has a high chance to work):
 
 1. create a new environment:
 
