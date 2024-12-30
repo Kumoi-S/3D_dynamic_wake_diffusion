@@ -1,0 +1,19 @@
+__pycache__/
+
+dataset/**
+!dataset/**/
+!dataset/**/.gitignore
+
+dataset_sliced/**
+!dataset_sliced/**/
+!dataset_sliced/**/.gitignore
+
+logs/**
+!logs/**/
+!logs/**/.gitignore
+
+
+**/*.ckpt
+
+# **/*.gif
+# **/*.mp4
