@@ -2,7 +2,7 @@ Here's the translation with corrected English:
 
 # A three-dimensional dynamic wake prediction framework for multiple turbine operation states based on diffusion model
 
-> Mengyang Songa, Jiancai Huanga, Xuqiang Shaoa, Zaishan Qia
+> Mengyang Song, Jiancai Huang, Xuqiang Shao, Shiao Zhao, Chenyu Ma, Zaishan Qi
 
 As the paper is currently under review, only the test code, trained models, and test dataset are available. The full code, models, and data will be released upon acceptance.
 
