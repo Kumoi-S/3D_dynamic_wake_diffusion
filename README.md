@@ -4,15 +4,17 @@
 
 As the paper is currently under review, only the test code, trained models, and test dataset are available. The full code, models, and data will be released upon acceptance.
 
-To test the trained model, please download the supplementary data from [zenodo](https://zenodo.org/records/14569344) and extract it to the project root directory. After extraction, the project root directory should contain:
+To test the trained model, please download the supplementary data from [zenodo](https://zenodo.org/records/14569344) and extract it to the project root directory. After extraction, the project root directory should contain at least following items:
 - dataset_sliced
-- logs  
-- my_LDM  
+- logs
+- foam_cases
+- my_LDM
 - reference_repo
-- environment.yml  
+- environment.yml
+- LICENSE
+- pyproject.toml
 - README.md  
 - visualization.ipynb
-- LICENSE
 
 ### Environment
 
