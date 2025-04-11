@@ -1,0 +1,55 @@
+[project]
+name = "repo-my-ldm"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = "==3.10.*"
+dependencies = [
+    # neural network
+    "torch==2.4.1",
+    "torchvision==0.19.1",
+    "kornia",       # torchvision 图像处理算法拓展
+    "torchaudio==2.4.1",
+    # "xformers==0.0.28.post1", # 这个包依赖写的有问题，先注释掉sync一下，再解除注释sync
+    "lightning>=2.4",
+    "timm",
+    "lpips",
+    "torchmetrics",
+    "torchinfo",
+    "datasets",     # huggingface
+    "accelerate",   # huggingface
+    "diffusers",    # huggingface
+    # compute & data management
+    "einops",
+    "numpy",
+    "taichi",
+    "vtk",
+    "scipy",
+    "scikit-learn",
+    "pandas",
+    "floris==4.4.1",
+    # visualization
+    "matplotlib",
+    "seaborn",
+    "plotly==5.24.*",
+    "kaleido==0.2.0", # plotly image export
+    "tqdm",
+    "rich",
+    "tensorboard",
+    "notebook",
+    "pygwalker",    # jupyter notebook 数据可视化
+    # etc
+    "omegaconf",
+    "regex",
+    "natsort",
+    "requests",
+]
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cuda" }]
+torchvision = [{ index = "pytorch-cuda" }]
+xformers = [{ index = "pytorch-cuda" }]
+
+[[tool.uv.index]]
+name = "pytorch-cuda"
+url = "https://download.pytorch.org/whl/cu118"
+explicit = true
