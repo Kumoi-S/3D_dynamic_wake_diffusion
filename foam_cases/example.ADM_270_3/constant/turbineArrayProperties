@@ -1,0 +1,182 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  1.6                                   |
+|   \\  /    A nd           | Web:      http://www.OpenFOAM.org               |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      turbineProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+globalProperties
+{
+    outputControl       "timeStep";
+    outputInterval       1;
+}
+
+turbine0
+{
+    turbineType         "NREL5MWRef";
+    baseLocation         (400.0 800.0 0.0);
+    nRadial              64;
+    azimuthMaxDis        2.0;
+    nAvgSector           1;
+    pointDistType       "uniform";
+    pointInterpType     "linear";
+    bladeUpdateType     "oldPosition";
+    epsilon              20.0;
+    forceScalar          1.0;
+    inflowVelocityScalar 0.94;
+    tipRootLossCorrType "Glauert";
+    rotationDir         "cw";
+    Azimuth              0.0;
+    RotSpeed             9.15519863;
+    TorqueGen            0.0;
+    Pitch                0.0;
+    NacYaw             270.0;
+    fluidDensity         1.225;
+}
+
+turbine1
+{
+    turbineType         "NREL5MWRef";
+    baseLocation         (400.0 1000.0 0.0);
+    nRadial              64;
+    azimuthMaxDis        2.0;
+    nAvgSector           1;
+    pointDistType       "uniform";
+    pointInterpType     "linear";
+    bladeUpdateType     "oldPosition";
+    epsilon              20.0;
+    forceScalar          1.0;
+    inflowVelocityScalar 0.94;
+    tipRootLossCorrType "Glauert";
+    rotationDir         "cw";
+    Azimuth              0.0;
+    RotSpeed             9.15519863;
+    TorqueGen            0.0;
+    Pitch                0.0;
+    NacYaw             270.0;
+    fluidDensity         1.225;
+}
+
+turbine2
+{
+    turbineType         "NREL5MWRef";
+    baseLocation         (400.0 1380.0 0.0);
+    nRadial              64;
+    azimuthMaxDis        2.0;
+    nAvgSector           1;
+    pointDistType       "uniform";
+    pointInterpType     "linear";
+    bladeUpdateType     "oldPosition";
+    epsilon              20.0;
+    forceScalar          1.0;
+    inflowVelocityScalar 0.94;
+    tipRootLossCorrType "Glauert";
+    rotationDir         "cw";
+    Azimuth              0.0;
+    RotSpeed             9.15519863;
+    TorqueGen            0.0;
+    Pitch                0.0;
+    NacYaw             270.0;
+    fluidDensity         1.225;
+}
+
+turbine3
+{
+    turbineType         "NREL5MWRef";
+    baseLocation         (400.0 1630.0 0.0);
+    nRadial              64;
+    azimuthMaxDis        2.0;
+    nAvgSector           1;
+    pointDistType       "uniform";
+    pointInterpType     "linear";
+    bladeUpdateType     "oldPosition";
+    epsilon              20.0;
+    forceScalar          1.0;
+    inflowVelocityScalar 0.94;
+    tipRootLossCorrType "Glauert";
+    rotationDir         "cw";
+    Azimuth              0.0;
+    RotSpeed             9.15519863;
+    TorqueGen            0.0;
+    Pitch                0.0;
+    NacYaw             270.0;
+    fluidDensity         1.225;
+}
+
+turbine4
+{
+    turbineType         "NREL5MWRef";
+    baseLocation         (400.0 2400.0 0.0);
+    nRadial              64;
+    azimuthMaxDis        2.0;
+    nAvgSector           1;
+    pointDistType       "uniform";
+    pointInterpType     "linear";
+    bladeUpdateType     "oldPosition";
+    epsilon              20.0;
+    forceScalar          1.0;
+    inflowVelocityScalar 0.94;
+    tipRootLossCorrType "Glauert";
+    rotationDir         "cw";
+    Azimuth              0.0;
+    RotSpeed             9.15519863;
+    TorqueGen            0.0;
+    Pitch                0.0;
+    NacYaw             270.0;
+    fluidDensity         1.225;
+}
+
+turbine5
+{
+    turbineType         "NREL5MWRef";
+    baseLocation         (1800.0 2400.0 0.0);
+    nRadial              64;
+    azimuthMaxDis        2.0;
+    nAvgSector           1;
+    pointDistType       "uniform";
+    pointInterpType     "linear";
+    bladeUpdateType     "oldPosition";
+    epsilon              20.0;
+    forceScalar          1.0;
+    inflowVelocityScalar 0.94;
+    tipRootLossCorrType "Glauert";
+    rotationDir         "cw";
+    Azimuth              0.0;
+    RotSpeed             9.15519863;
+    TorqueGen            0.0;
+    Pitch                0.0;
+    NacYaw             270.0;
+    fluidDensity         1.225;
+}
+
+turbine6
+{
+    turbineType         "NREL5MWRef";
+    baseLocation         (3200.0 2400.0 0.0);
+    nRadial              64;
+    azimuthMaxDis        2.0;
+    nAvgSector           1;
+    pointDistType       "uniform";
+    pointInterpType     "linear";
+    bladeUpdateType     "oldPosition";
+    epsilon              20.0;
+    forceScalar          1.0;
+    inflowVelocityScalar 0.94;
+    tipRootLossCorrType "Glauert";
+    rotationDir         "cw";
+    Azimuth              0.0;
+    RotSpeed             9.15519863;
+    TorqueGen            0.0;
+    Pitch                0.0;
+    NacYaw             270.0;
+    fluidDensity         1.225;
+}
