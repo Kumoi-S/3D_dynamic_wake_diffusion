@@ -4,6 +4,15 @@
 
 As the paper is currently under review, only the test code, trained models, and test dataset are available. The full code, models, and data will be released upon acceptance.
 
+Some results comparison(Video 1-4 in the paper, repectively):
+
+![Video 1](./case_1_comparison.gif)
+![Video 2](./case_2_comparison.gif)
+![Video 3](./case_3_comparison.gif)
+![Video 4](./case_5_comparison.gif)
+
+---
+
 To test the trained model, please download the supplementary data from [zenodo](https://zenodo.org/records/14569344) and extract it to the project root directory. After extraction, the project root directory should contain at least following items:
 - dataset_sliced
 - logs
